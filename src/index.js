@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { ApolloProvider, createNetworkInterface, ApolloClient } from 'react-apollo';
 
 const networkInterface = createNetworkInterface({
-    uri: '__SIMPLE_API_ENDPOINT__'
+    uri: process.env.REACT_APP_GRAPHQL_ENDPOINT
 });
 
 const client = new ApolloClient({
