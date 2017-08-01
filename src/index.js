@@ -5,7 +5,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import { ApolloProvider, createNetworkInterface, ApolloClient } from 'react-apollo';
 import { BrowserRouter } from 'react-router-dom';
-import { GC_AUTH_TOKEN } from './constants'
+import { GC_AUTH_TOKEN } from './constants';
 
 
 
